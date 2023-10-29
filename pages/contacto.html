@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title> Los Mejores Hits</title>
+    <link rel="shortcut icon" href="../img/ico.ico" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+        <div class="containerMenu">
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li> <a href="../index.html">Inicio</a></li>
+                        <li> <a href="decadas.html">Decadas</a></li>
+                        <li> <a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+
+<section id="sectionContacto">
+
+    <div id="formulario" >
+        <h1>Contacto</h1>
+        <form action="" id="formulario" target="_blank">
+            <fieldset>
+                <legend>Escríbenos:</legend>
+
+                <div class="formulario__grupo" id="grupo__nombre">
+                    <label for="nombre" class="formulario__label">Nombre</label>
+                    <div class="formulario__grupo-input">
+                        <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="John Doe">
+                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                    <p class="formulario__input-error">El nombre tiene que ser de 4 a 16 dígitos y solo puede contener letras minúsculas y mayúsculas.</p>
+                </div>
+
+                <div class="formulario__grupo" id="grupo__apellido">
+				<label for="apellido" class="formulario__label">Apellido</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="apellido" id="apellido" placeholder="John Doe">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">El apellido tiene que ser de 4 a 16 dígitos y solo puede contener letras minúsculas y mayúsculas.</p>
+			</div>
+
+            <div class="formulario__grupo" id="grupo__correo">
+				<label for="correo" class="formulario__label">Correo Electrónico</label>
+				<div class="formulario__grupo-input">
+					<input type="email" class="formulario__input" name="correo" id="correo" placeholder="correo@correo.com">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
+			</div>
+
+            <div class="formulario__grupo" id="grupo__comentarios">
+				<label for="Comentarios" class="formulario__label">Comentarios</label>
+				<div class="formulario__grupo-input">
+					<input class="formulario__input" name="comentarios" id="comentarios" cols="30" rows="10" placeholder="Escriba su comentario"> 
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Los comentarios solo pueden contener letras, numeros, puntos, guiones y guion bajo.</p>
+			</div>
+
+            <div class="formulario__grupo" id="grupo__terminos">
+				<label class="formulario__label">
+					<input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
+					Acepto los Terminos y Condiciones
+				</label>
+			</div>
+
+			<div class="formulario__mensaje" id="formulario__mensaje">
+				<p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+			</div>
+
+			<div class="formulario__grupo formulario__grupo-btn-enviar">
+				<button type="submit" class="formulario__btn">Enviar</button>
+				<p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
+			</div>
+
+            </fieldset>                
+
+        </form>
+
+    </div>
+
+</section>
+
+    <footer>
+        <nav>
+            <p>&copy; Copyright - Todos los derechos reservados.</p>
+        </nav>
+    </footer>
+    <script src="../js/javascrip.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    </body>
+</html>
